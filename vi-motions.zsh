@@ -1,4 +1,3 @@
-#!/usr/bin/env zsh
 # {{{ Handle fpath/$0
 # ref: zdharma.org/Zsh-100-Commits-Club/Zsh-Plugin-Standard.html#zero-handling
 0="${${ZERO:-${0:#$ZSH_ARGZERO}}:-${(%):-%N}}"
